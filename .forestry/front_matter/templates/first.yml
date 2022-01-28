@@ -45,6 +45,3 @@ fields:
   config:
     required: false
   label: word
-pages:
-- "*/content/post/hugo-1.md"
-- "*/content/post/hugo.md"
