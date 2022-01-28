@@ -45,3 +45,5 @@ fields:
   config:
     required: false
   label: word
+pages:
+- content/post/关于我的颜表情.md
