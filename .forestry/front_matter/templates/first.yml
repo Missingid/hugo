@@ -41,4 +41,5 @@ fields:
     required: false
   label: description
 pages:
+- "*/content/post/hugo-1.md"
 - "*/content/post/hugo.md"
