@@ -1,4 +1,42 @@
 ---
 label: First
 hide_body: true
-fields: []
+fields:
+- name: front_image
+  type: file
+  config:
+    maxSize: 64
+  label: front image
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: categories
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: categories
+- name: tag
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: tag
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
