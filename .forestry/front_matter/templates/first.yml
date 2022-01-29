@@ -2,11 +2,6 @@
 label: First
 hide_body: false
 fields:
-- name: front_image
-  type: file
-  config:
-    maxSize: 64
-  label: front image
 - name: title
   type: text
   config:
@@ -40,5 +35,10 @@ fields:
   config:
     required: false
   label: description
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
 pages:
 - content/post/关于我的颜表情.md
