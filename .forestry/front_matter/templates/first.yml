@@ -1,6 +1,6 @@
 ---
 label: First
-hide_body: true
+hide_body: false
 fields:
 - name: front_image
   type: file
