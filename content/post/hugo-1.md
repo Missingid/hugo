@@ -1,8 +1,8 @@
 +++
 aliases = []
-categories = []
+categories = [""]
 date = 2022-01-28T16:00:00Z
-description = "Hugo装修相关的To Do List。"
+description = "装修相关的To Do List。"
 draft = true
 image = ""
 series = []
