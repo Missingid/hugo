@@ -32,4 +32,5 @@ fields:
   name: image
   label: image
 pages:
+- content/post/hugo-1.md
 - content/post/hugo.md
