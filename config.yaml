@@ -199,7 +199,7 @@ menu:
           name: Mastodon
           url: https://me.ns.ci/web/accounts/107008993383645617
           params:
-            icon: brand-mastodon
+            icon: brand-twitter
 
 related:
     includeNewer: true
