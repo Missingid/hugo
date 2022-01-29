@@ -140,7 +140,6 @@ params:
             - search
             - archives
             - tag-cloud
-            - toc
 
         archives:
             limit: 5
