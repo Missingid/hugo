@@ -40,10 +40,5 @@ fields:
   config:
     required: false
   label: description
-- name: word
-  type: text
-  config:
-    required: false
-  label: word
 pages:
 - content/post/关于我的颜表情.md
