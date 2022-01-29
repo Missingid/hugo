@@ -38,7 +38,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+        emoji: 
         subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
@@ -84,10 +84,10 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL:
-            lang:
-            visitor:
-            avatar:
+            serverURL: https://waline-jrcx1k6nf-missingid.vercel.app/
+            lang: 'zh-CN'
+            visitor: true
+            avatar: 'monsterid'
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
             requiredMeta:
@@ -97,6 +97,7 @@ params:
             placeholder:
             locale:
                 admin: Admin
+            copyright: true
 
         twikoo:
             envId:

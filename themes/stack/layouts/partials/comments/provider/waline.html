@@ -1,5 +1,15 @@
 <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
 <div id="waline" class="waline-container"></div>
+<body>
+    ...
+    <div id="waline"></div>
+    <script>
+      Waline({
+        el: '#waline',
+        serverURL: 'https://waline-jrcx1k6nf-missingid.vercel.app',
+      });
+    </script>
+  </body>
 <style>
     .waline-container {
         background-color: var(--card-background);
