@@ -86,7 +86,7 @@ params:
         waline:
             serverURL: https://waline-jrcx1k6nf-missingid.vercel.app/
             lang: 'zh-CN'
-            visitor: true
+            visitor: 
             avatar: 'monsterid'
             emoji:
                 - https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs
