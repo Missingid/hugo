@@ -5,8 +5,9 @@ categories = ["搬家日记"]
 date = 2022-01-27T16:00:00Z
 description = "在Hugo+Vercel+Waline搭建博客过程中，我遇到的问题和解决方法。"
 draft = true
-image = "/uploads/jesse.jpg"
+image = "/uploads/tsn5.jpg"
 series = []
+slug = "hugoblog_1"
 tags = ["Hugo", ""]
 title = "Hugo | 那些我踩过的坑"
 
