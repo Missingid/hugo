@@ -1,10 +1,10 @@
 +++
 aliases = []
-categories = ["搬家日记", ""]
+categories = ["搬家", ""]
 date = 2022-01-28T16:00:00Z
 description = "装修相关的To Do List。"
 draft = true
-image = "/uploads/tsn3.jpg"
+image = ""
 series = []
 slug = "decorating"
 tags = ["Hugo"]
