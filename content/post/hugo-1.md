@@ -1,6 +1,6 @@
 +++
 aliases = []
-categories = ["搬家", ""]
+categories = []
 date = 2022-01-28T16:00:00Z
 description = "装修相关的To Do List。"
 draft = true
