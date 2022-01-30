@@ -1,4 +1,4 @@
-interface colorScheme {
+/*interface colorScheme {
     hash: string,                        /// Regenerate color scheme when the image hash is changed
     DarkMuted: {
         hex: string,
@@ -10,20 +10,20 @@ interface colorScheme {
         rgb: Number[],
         bodyTextColor: string
     }
-}
+}*/
 
-let colorsCache: { [key: string]: colorScheme } = {};
+//let colorsCache: { [key: string]: colorScheme } = {};
 
-if (localStorage.hasOwnProperty('StackColorsCache')) {
+/*if (localStorage.hasOwnProperty('StackColorsCache')) {
     try {
         colorsCache = JSON.parse(localStorage.getItem('StackColorsCache'));
     }
     catch (e) {
         colorsCache = {};
     }
-}
+}*/
 
-async function getColor(key: string, hash: string, imageURL: string) {
+/*async function getColor(key: string, hash: string, imageURL: string) {
     if (!key) {
         /**
          * If no key is provided, do not cache the result
@@ -55,9 +55,8 @@ async function getColor(key: string, hash: string, imageURL: string) {
         localStorage.setItem('StackColorsCache', JSON.stringify(colorsCache));
     }
 
-    return colorsCache[key];
-}
+   // return colorsCache[key]; } */
 
-export {
+/*export {
     getColor
-}
+}*/

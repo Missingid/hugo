@@ -6,7 +6,7 @@
 *   @link: https://github.com/CaiJimmy/hugo-theme-stack
 */
 import StackGallery from "ts/gallery";
-import { getColor } from 'ts/color';
+//import { getColor } from 'ts/color';
 import menu from 'ts/menu';
 import createElement from 'ts/createElement';
 import StackColorScheme from 'ts/colorScheme';
@@ -30,7 +30,7 @@ let Stack = {
         /**
          * Add linear gradient background to tile style article
          */
-        const articleTile = document.querySelector('.article-list--tile');
+        /*const articleTile = document.querySelector('.article-list--tile');
         if (articleTile) {
             let observer = new IntersectionObserver(async (entries, observer) => {
                 entries.forEach(entry => {
@@ -57,7 +57,7 @@ let Stack = {
 
             observer.observe(articleTile)
         }
-
+*/
 
         /**
          * Add copy button to code block
@@ -90,7 +90,7 @@ let Stack = {
             });
         });
 
-        new StackColorScheme(document.getElementById('dark-mode-toggle'));
+        //new StackColorScheme(document.getElementById('dark-mode-toggle'));
     }
 }
 
