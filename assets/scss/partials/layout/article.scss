@@ -192,7 +192,7 @@
     flex-direction: column;
     color: var(--card-text-color-main);
     overflow: hidden;
-    display:inline-block; //根据内容调整宽度
+
     ::-webkit-scrollbar-thumb {
         background-color: var(--card-separator-color);
     }
@@ -290,11 +290,12 @@
         flex-shrink: 0;
         overflow: hidden;
         width: 250px;
-        height: 150px; //改为100
+        height: 100px; //改为100
 
         .article-title {
             font-size: 1.6rem; //改为1.6
-            margin: 0;
+            margin: auto;
+            justify-content: center; //居中
         }
 
         &.has-image {
