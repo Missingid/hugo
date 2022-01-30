@@ -18,7 +18,7 @@
     min-width: 15%; // 左侧导航栏的宽度
 
     --sidebar-avatar-size: 120px;
-    --sidebar-element-separation: 20px;
+    --sidebar-element-separation: 10px; //原来是20px
 
     @include respond(md) {
         width: auto;
