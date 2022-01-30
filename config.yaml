@@ -138,6 +138,7 @@ params:
     widgets:
         enabled:
             - search
+            - toc
             - archives
             - tag-cloud
 
@@ -203,14 +204,14 @@ menu:
 
 related:
     includeNewer: true
-    threshold: 50
+    threshold: 50 #原来是60
     toLower: false
     indices:
         - name: tags
-          weight: 200
+          weight: 200 #原来是100
 
         - name: categories
-          weight: 100
+          weight: 100 #原来是200
 
 markup:
     goldmark:
