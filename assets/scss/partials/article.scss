@@ -85,7 +85,7 @@
     margin: 5px 0;
     line-height: 1.5;
 
-    font-size: 1.5rem; /*修改字号*/
+    font-size: 1.2rem; /*修改字号*/
     @include respond(xl) {
         font-size: 2rem;
     }
