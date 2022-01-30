@@ -18,7 +18,7 @@
     &.extended {
         @include respond(md) {
             max-width: 1024px;
-            --left-sidebar-max-width: 25%;
+            --left-sidebar-max-width: 30%;
             --right-sidebar-max-width: 30%;
         }
 
@@ -30,8 +30,8 @@
 
         @include respond(xl) {
             max-width: 1536px;
-            --left-sidebar-max-width: 20%;
-            --right-sidebar-max-width: 20%;
+            --left-sidebar-max-width: 15%;
+            --right-sidebar-max-width: 25%;
         }
     }
 
