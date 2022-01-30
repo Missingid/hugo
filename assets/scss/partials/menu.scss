@@ -170,7 +170,7 @@
         }
 /*修改左侧菜单栏*/
         @include respond(md) {
-            width: 77%;
+            width: 100%;
             text-align: left;
             padding: 0px 0;
         }
