@@ -15,6 +15,7 @@
     width: 100%;
     padding: 30px 0 15px 0;
     max-width: none;
+    min-width: 15%; // 左侧导航栏的宽度
 
     --sidebar-avatar-size: 120px;
     --sidebar-element-separation: 20px;
