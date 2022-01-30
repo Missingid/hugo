@@ -72,4 +72,5 @@ title = "Hugo | 装修小技巧"
               weight: 200 #原来是100
             - name: categories
               weight: 100 #原来是200
+
 比如我之后不打算保留categories，可以将tags权重调高，将categories权重降低。
