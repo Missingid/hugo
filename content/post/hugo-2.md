@@ -19,9 +19,9 @@ title = "Hugo | 装修小技巧"
 
 ![](/uploads/hugo1.png)
 
-# 正文
+## 正文
 
-## 正文图片缩小
+### 正文图片缩小
 
 在assets\\scss\\partials\\layout\\articles.scss中修改max-width：
 
@@ -34,9 +34,9 @@ title = "Hugo | 装修小技巧"
         }
     }
 
-# 左侧栏
+## 左侧栏
 
-## 社交账号icon居中
+### 社交账号icon居中
 
 在assets\\scss\\partials\\menu.scss中新加一行：
 
@@ -49,7 +49,7 @@ title = "Hugo | 装修小技巧"
         justify-content:center; //新加的
     }
 
-## 修改菜单栏上方距离
+### 修改菜单栏上方距离
 
 在assets-scss-partials-menu.scss中修改margin-top：
 
