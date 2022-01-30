@@ -57,7 +57,7 @@ let Stack = {
 
             observer.observe(articleTile)
         }
-*/
+
 
         /**
          * Add copy button to code block
@@ -90,7 +90,7 @@ let Stack = {
             });
         });
 
-        //new StackColorScheme(document.getElementById('dark-mode-toggle'));
+        new StackColorScheme(document.getElementById('dark-mode-toggle'));
     }
 }
 
