@@ -168,10 +168,11 @@
                 margin-bottom: 20px;
             }
         }
-
+/*修改左侧菜单栏*/
         @include respond(md) {
-            width: 100%;
-            padding: 10px 0;
+            width: 77%;
+            text-align: left;
+            padding: 0px 0;
         }
 
         svg {
