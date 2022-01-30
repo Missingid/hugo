@@ -17,7 +17,7 @@ title = "Hugo | 装修小技巧"
 
 * Chrome浏览器打开博客后，点击最右侧纵向排列的三个点，找到更多工具中的开发者工具
 
-  ![](/uploads/hugo1.png)
+![](/uploads/hugo1.png)
 
 # 左侧栏
 
