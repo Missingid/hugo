@@ -74,3 +74,35 @@ title = "Hugo | 装修小技巧"
               weight: 100 #原来是200
 
 比如我之后不打算保留categories，可以将tags权重调高，将categories权重降低。
+
+## 右侧栏
+
+### Search字号/边框大小调整
+
+在assets\\scss\\partials\\layout中找到search文件，修改以下部分：
+
+    .search-form {
+        &.widget {
+            label {
+                font-size: 1.8rem; //改字号
+                top: 10px;
+            }
+    
+            input {
+                font-size: 1.4rem; //改字号
+                padding: 40px 20px 30px 20px; //改边框大小
+            }
+        }
+    
+        label {
+            position: absolute;
+            top: 25px; //改
+            left: 20px;
+            font-size: 1.8rem; //改Search字号
+            color: var(--card-text-color-tertiary);
+        }
+    
+        input {
+            padding: 60px 20px 20px; //改
+            font-size: 1.6rem; //改Search下方字号
+        }
