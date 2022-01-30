@@ -26,7 +26,7 @@
                 width: 100%;
                 height: 150px;
                 object-fit: cover;
-
+                
                 @include respond(md) {
                     height: 200px;
                 }
@@ -182,6 +182,7 @@
 
         .article-image {
             img {
+                margin: 10px; //新加的
                 width: var(--image-size);
                 height: var(--image-size);
                 object-fit: cover;
