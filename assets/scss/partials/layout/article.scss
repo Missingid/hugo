@@ -290,12 +290,12 @@
         flex-shrink: 0;
         overflow: hidden;
         width: 250px;
-        height: 100px; //改为100
+        height: 80px; //改为100
 
         .article-title {
             font-size: 1.6rem; //改为1.6
-            margin: 0;
-            text-align: left; //靠左
+            margin: auto;
+            justify-content: center; //靠左
         }
 
         &.has-image {
