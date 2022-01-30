@@ -26,7 +26,7 @@
         position: absolute;
         top: 15px;
         left: 20px;
-        font-size: 1.4rem;
+        font-size: 1.8rem; //改Search字号
         color: var(--card-text-color-tertiary);
     }
 
@@ -42,7 +42,7 @@
 
         transition: box-shadow 0.3s ease;
 
-        font-size: 1.8rem;
+        font-size: 1.6rem; //改Search下方字号
 
         &:focus {
             outline: 0;
