@@ -83,11 +83,12 @@
     font-weight: normal;
     color: var(--card-text-color-secondary);
     margin: 5px 0;
+    margin-top: 5px;
     line-height: 1.5;
 
-    font-size: 1.5rem; //修改字号
+    font-size: 1.6rem; //修改字号
     @include respond(xl) {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 }
 
