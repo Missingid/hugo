@@ -75,7 +75,7 @@
     }
 
     & + .article-subtitle {
-        margin-top: 0;
+        margin-top: 0.5px;
     }
 }
 
@@ -85,7 +85,7 @@
     margin: 5px 0;
     line-height: 1.5;
 
-    font-size: 1.75rem;
+    font-size: 1.5rem; /*修改字号*/
     @include respond(xl) {
         font-size: 2rem;
     }
