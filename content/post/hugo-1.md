@@ -32,4 +32,4 @@ title = "Hugo | 大刀阔斧搞装修"
 ## 底边
 
 - [x] Related Contents的滤镜好奇怪
-- [x] 修改Related Content长宽
+- [ ] 修改Related Content长宽
