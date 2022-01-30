@@ -1,6 +1,6 @@
 +++
 aliases = []
-categories = ["搬家", ""]
+categories = []
 date = 2022-01-28T16:00:00Z
 description = "装修相关的To Do List。"
 draft = true
@@ -20,6 +20,8 @@ title = "Hugo | 大刀阔斧搞装修"
 
 * 社交平台链接及对应Icon
 * 友邻链接
+* 调整宽度 √
+* 缩短社交平台链接和Home之间的距离
 
 ## 右侧栏
 
