@@ -24,14 +24,14 @@
 
     label {
         position: absolute;
-        top: 15px;
+        top: 25px; //改
         left: 20px;
-        font-size: 1.8 rem; //改Search字号
+        font-size: 1.8rem; //改Search字号
         color: var(--card-text-color-tertiary);
     }
 
     input {
-        padding: 40px 20px 20px;
+        padding: 60px 20px 20px; //改
         border-radius: var(--card-border-radius);
         background-color: var(--card-background);
         box-shadow: var(--shadow-l1);
