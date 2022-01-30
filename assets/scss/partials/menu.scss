@@ -205,7 +205,6 @@
 
 .social-menu {
     list-style: none; 
-    text-align: center; //新加的
     padding: 0%;
     display: flex;
     flex-direction: row;
@@ -214,6 +213,7 @@
     svg {
         width: 24px;
         height: 24px;
+        text-align: center; //新加的
         stroke: var(--body-text-color);
         stroke-width: 1.33;
     }
