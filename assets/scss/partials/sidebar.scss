@@ -58,10 +58,11 @@
     @include respond(md) {
         padding: 0;
     }
-
+    /*头像与站点描述居中显示*/
     .site-avatar {
         position: relative;
-        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
         width: var(--sidebar-avatar-size);
         height: var(--sidebar-avatar-size);
 
@@ -147,8 +148,9 @@
     }
 }
 
+/*暗色模式按钮上移*/
 #dark-mode-toggle {
-    margin-top: auto;
+    margin-top: 0px;
     color: var(--body-text-color);
     display: flex;
     align-items: center;
