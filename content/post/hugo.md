@@ -26,4 +26,5 @@ _多写一个e是因为直接写waline会在这一块出现评论区，怪事，
 ## Hugo
 
 * 在根目录中创建的东西，只要跟theme文件夹中的同路径同名，Hugo都会以根目录中的优先级为先，所以装修的正确操作是在根目录下新建同名文件，这样在theme原作者更新后直接换掉theme文件夹不影响已做出的改动。
-* 修改头像：config.yaml文件中对应的是sidebar-avatar-src，图片存放位置为assets/img。
+* 修改头像：config.yaml文件中对应的是sidebar/avatar/src，图片存放位置为assets/img。
+* 暗色模式：我在按照[Hugo Stack主题修改记录(瘦身篇)](https://www.bigs3.com/article/modify-hugo-theme-stack-one/)去掉主题里的vibrant.js插件时，第三步多注释掉了`new StackColorScheme(document.getElementById('dark-mode-toggle'));` 导致暗色模式无法使用。这一行不能注释掉的！
