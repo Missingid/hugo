@@ -1,7 +1,7 @@
 +++
 aliases = []
 author = ""
-categories = ["搬家"]
+categories = []
 date = 2022-01-28T16:00:00Z
 description = "在Hugo+Vercel+Waline搭建博客过程中，我遇到的问题和解决方法。"
 draft = true
