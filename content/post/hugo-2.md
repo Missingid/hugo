@@ -58,3 +58,18 @@ title = "Hugo | 装修小技巧"
         @include respond(xl) {
             margin-top: 10px; //原来是30px
         }
+
+### Related Content
+
+根据[Hugo的官方说明文档](https://gohugo.io/content-management/related/)，文章之间可以按照tags/categories/date等因素计算出加权的Related值，如果该值大于阈值，该文章会被加入到下方的Related Content。我们可以在config.yaml中找到下面这段代码，修改每个因素对应的权重以及阈值：
+
+    related:
+        includeNewer: true
+        threshold: 50 #原来是60
+        toLower: false
+        indices:
+            - name: tags
+              weight: 200 #原来是100
+            - name: categories
+              weight: 100 #原来是200
+比如我之后不打算保留categories，可以将tags权重调高，将categories权重降低。
