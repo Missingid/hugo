@@ -1,10 +1,10 @@
 +++
 aliases = []
-categories = ["搬家日记", ""]
+categories = ["搬家", ""]
 date = 2022-01-28T16:00:00Z
 description = "装修相关的To Do List。"
 draft = true
-image = "/uploads/tsn3.jpg"
+image = ""
 series = []
 slug = "decorating"
 tags = ["Hugo"]
@@ -14,8 +14,6 @@ title = "Hugo | 大刀阔斧搞装修"
 ## 字体、字号
 
 * 全站字体改为思源宋体 √
-
-
 * 字号调整
 
 ## 左侧栏
@@ -26,3 +24,7 @@ title = "Hugo | 大刀阔斧搞装修"
 ## 右侧栏
 
 * tags和categories似乎可以省掉一个
+
+## 底边
+
+* Related Contents的滤镜好奇怪
