@@ -33,4 +33,5 @@ fields:
   label: image
 pages:
 - content/post/hugo-1.md
+- content/post/hugo-2.md
 - content/post/hugo.md
