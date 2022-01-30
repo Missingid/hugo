@@ -19,11 +19,26 @@ title = "Hugo | 装修小技巧"
 
 ![](/uploads/hugo1.png)
 
+# 正文
+
+## 正文图片缩小
+
+在assets\\scss\\partials\\layout\\articles.scss中修改max-width：
+
+    .article-content {
+    	margin: var(--card-padding) 0;
+    	color: var(--card-text-color-main);
+        img {
+          max-width: 90%; //原来是100%
+          height: auto;
+        }
+    }
+
 # 左侧栏
 
 ## 社交账号icon居中
 
-在assets-scss-partials-menu.scss中新加一行
+在assets\\scss\\partials\\menu.scss中新加一行：
 
     .social-menu {
         list-style: none; 
@@ -36,7 +51,7 @@ title = "Hugo | 装修小技巧"
 
 ## 修改菜单栏上方距离
 
-在assets-scss-partials-menu.scss中修改
+在assets-scss-partials-menu.scss中修改margin-top：
 
     .menu {
     	······
