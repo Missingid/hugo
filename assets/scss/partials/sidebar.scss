@@ -99,7 +99,7 @@
 
     .site-name {
         color: var(--accent-color);
-        margin: 0;
+        text-align:center; //站点描述居中
         font-size: 1.8rem;
 
         @include respond(2xl) {
@@ -110,7 +110,7 @@
     .site-description {
         color: var(--body-text-color);
         font-weight: normal;
-        margin: 10px 0;
+        text-align:center; //站点描述居中
         font-size: 1.6rem;
 
         @include respond(2xl) {
