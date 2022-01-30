@@ -23,7 +23,16 @@ title = "Hugo | 装修小技巧"
 
 ## 社交账号icon居中
 
-在assets-scss-partials-menu.scss中修改
+在assets-scss-partials-menu.scss中新加一行
+
+    .social-menu {
+        list-style: none; 
+        padding: 0%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content:center; //新加的
+    }
 
 ## 修改菜单栏上方距离
 
