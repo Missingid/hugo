@@ -18,7 +18,7 @@
     &.extended {
         @include respond(md) {
             max-width: 1024px;
-            --left-sidebar-max-width: 30%;
+            --left-sidebar-max-width: 50%;
             --right-sidebar-max-width: 30%;
         }
 
