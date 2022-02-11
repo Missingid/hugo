@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://hugo-missingid.vercel.app
 languageCode: zh-cn
 theme: stack
 paginate: 10
@@ -188,6 +188,14 @@ menu:
               ### For demonstration purpose, the home link will be open in a new tab
               newTab: true
               icon: home
+        - identifier: links
+          name: Friends
+          url: /
+          weight: -70
+          params:
+              ### For demonstration purpose, the home link will be open in a new tab
+              newTab: true
+              icon: friends  
     
     social:
         - identifier: github
