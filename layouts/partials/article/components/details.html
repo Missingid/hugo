@@ -34,9 +34,9 @@
 
         {{ if .Site.Params.article.readingTime }}
             <div>
-                {{ partial "helper/icon" "clock" }} 
+                {{ partial "helper/icon" "pencil" }} 
                 <time class="article-words">
-                    {{ .WordCount }}
+                    {{ .WordCount }}字
                 </time>
             </div>
         {{ end }}
