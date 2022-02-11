@@ -23,6 +23,7 @@ title = "Hugo | 大刀阔斧搞装修"
 - [x] 调整宽度
 - [x] 缩短社交平台链接和Home之间的距离
 - [x] 阅读正文时左侧栏固定不动
+- [x] Archive中去掉categories
 
 ## 右侧栏
 

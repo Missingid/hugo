@@ -106,3 +106,9 @@ title = "Hugo | 装修小技巧"
             padding: 60px 20px 20px; //改
             font-size: 1.6rem; //改Search下方字号
         }
+
+## Icon
+
+### 从Tabler Icons上获取美丽图标
+
+根据[Jimmy的指南](https://docs.stack.jimmycai.com/zh/configuration/custom-menu.html#%E9%85%8D%E7%BD%AE%E5%9B%BE%E6%A0%87)，Stack主题使用的Icon来自于[Tabler Icons](https://tablericons.com/)。如果想自行修改，可以点击Tabler Icons网页上的图标，此时图标下方会出现“copied”字样，说明该图标的信息我们已拷贝完全。然后回到assets/icons中新建html文件，将上述信息复制上去，保存，即可获得美丽图标。
