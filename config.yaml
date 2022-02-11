@@ -187,15 +187,7 @@ menu:
           params:
               ### For demonstration purpose, the home link will be open in a new tab
               newTab: true
-              icon: home
-        - identifier: links
-          name: Friends
-          url: /
-          weight: -70
-          params:
-              ### For demonstration purpose, the home link will be open in a new tab
-              newTab: true
-              icon: friends  
+              icon: home  
     
     social:
         - identifier: github
