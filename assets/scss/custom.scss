@@ -10,6 +10,14 @@
     }
 }
 
+//codeblock暗色模式
+[data-scheme="light"] {
+    .article-content pre{
+        --pre-background-color: #fafafa;
+        --pre-text-color: #272822;
+    }
+}
+
 //友情链接双栏
 @media (min-width: 500px) {
 
