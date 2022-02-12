@@ -5,8 +5,14 @@ date: '2022-02-12'
 slug: links
 layout: links
 license: false
-hastoc: true
+toc: true
 comments: true
+widgets:
+    enabled:
+        - search
+        - toc
+        - archives
+        - tag-cloud
 menu:
     main: 
         weight: -70
