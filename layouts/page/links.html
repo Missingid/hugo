@@ -57,13 +57,13 @@
             </div>
         </section>
     {{ end }}-->
-    <!--{{ partial "sidebar/right.html" . }}-->
-    {{ if .Site.Params.widgets.enabled }}
+    {{ partial "sidebar/right.html" . }}
+    <!--{{ if .Site.Params.widgets.enabled }}
         {{ $context := . }}
         <aside class="sidebar right-sidebar sticky">
             {{ range $widget := .Site.Params.widgets.enabled }}
                 {{ partial (printf "widget/%s" $widget) $context }}
             {{ end }}
         </aside>
-    {{ end }}
+    {{ end }}-->
 {{ end }}

@@ -40,7 +40,6 @@
 .right-sidebar {
     flex-shrink: 0;
     display: none;
-    min-width: 15%; //加了一行
 
     &.sticky {
         top: 0;
