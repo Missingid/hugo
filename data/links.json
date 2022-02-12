@@ -4,11 +4,11 @@
         "website": "https://gregueria.icu/",
         "image": "fish.jpg",
 		"description": "谢谢所有的鱼"
-    }
+    },
     {
         "title":"小球飞鱼",
         "website":"https://gregueria.icu/",
-        "image":"https://cdn.jsdelivr.net/gh/Mantyke/photo@master/star_min.png",
+        "image":"mantyke.png",
         "description":"我们会一起遇见鲸鱼吗？"
     }
 ]
