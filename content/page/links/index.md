@@ -7,12 +7,11 @@ layout: links
 license: false
 toc: true
 comments: true
-widgets:
-    enabled:
-        - search
-        - toc
-        - archives
-        - tag-cloud
+enabled:
+    - search
+    - toc
+    - archives
+    - tag-cloud
 menu:
     main: 
         weight: -70
