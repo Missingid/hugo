@@ -147,6 +147,14 @@ title = "Hugo | 装修小技巧"
 
 根据[Jimmy的指南](https://docs.stack.jimmycai.com/zh/configuration/custom-menu.html#%E9%85%8D%E7%BD%AE%E5%9B%BE%E6%A0%87)，Stack主题使用的Icon来自于[Tabler Icons](https://tablericons.com/)。如果想自行修改，可以点击Tabler Icons网页上的图标，此时图标下方会出现“copied”字样，说明该图标的信息我们已拷贝完全。然后回到assets/icons中新建html文件（注意后缀是.svg），将上述信息复制上去，保存，即可获得美丽图标。
 
+### Icon的暗色模式
+
+其实我一直没发现这个问题，小鱼提醒之后我才意识到——噢！怎么自己添加的icon不会随着暗色模式变化啊！
+
+还是在Issues里抄到了答案（真的意想不到！)，美美附上一个[作业链接](https://github.com/CaiJimmy/hugo-theme-stack/issues/218)，在此为这位热心网友送上赛博感谢！
+
+只需要修改svg文件代码，无需改动博客的任何代码：在svg文件中将stroke设置为stroke="currentColor"，这样icon color可以自动匹配随着环境模式（暗色模式 or 亮色模式）。
+
 ## 修改Archives
 
 ### 将Archives中的Categories改为Tags
