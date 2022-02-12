@@ -1,4 +1,4 @@
 ---
 title: "Hugo"
-image: "tsn3.jpg"
+image: "photo.jpg"
 ---
