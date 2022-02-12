@@ -5,7 +5,7 @@ date: '2022-02-12'
 slug: links
 layout: links
 license: false
-toc: true
+hastoc: true
 comments: true
 menu:
     main: 
