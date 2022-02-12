@@ -11,9 +11,9 @@
 }
 
 //codeblock暗色模式
-[data-scheme="dark"] {
+[data-scheme="light"] {
     .article-content pre{
-        --pre-background-color: #fafafa;
+        --pre-background-color: #f3f9fd;
         --pre-text-color: #272822;
     }
 }
