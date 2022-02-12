@@ -1,4 +1,4 @@
 ---
 title: "Diary"
-image: "diary.jpg"
+image: "nasa.jpg"
 ---
