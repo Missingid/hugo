@@ -33,8 +33,10 @@
         {{ end }}
     </div>
 
+    <br / >
+    <br / >
     {{ partial "comments/include" . }}
-    
+
     <!--{{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
         {{ partial "comments/include" . }}
     {{ end }}-->
@@ -42,4 +44,17 @@
     {{ partialCached "footer/footer" . }}
 
     {{ partialCached "article/components/photoswipe" . }}
+    
+    {{ if (.Scratch.Get "hasTOC") }}
+    <section class="widget archives">
+        <div class="widget-icon">
+            {{ partial "helper/icon" "hash" }}
+        </div>
+        <h2 class="widget-title section-title">{{ T "article.tableOfContents" }}</h2>
+        
+        <div class="widget--toc">
+            {{ .TableOfContents }}
+        </div>
+    </section>
+    {{ end }}
 {{ end }}
