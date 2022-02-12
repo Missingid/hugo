@@ -36,6 +36,17 @@ title = "Hugo | 装修小技巧"
         }
     }
 
+### 代码块颜色修改
+
+我在Issues随意乱逛的时候看到有网友将light模式下代码块颜色调浅，非常好看！火速抄个作业->在custom.scss文件中加入：
+
+    [data-scheme="light"] {
+        .article-content pre{
+            --pre-background-color: #fafafa;
+            --pre-text-color: #272822;
+        }
+    }
+
 ## 左侧栏
 
 ### 社交账号icon居中
