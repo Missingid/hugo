@@ -158,3 +158,48 @@ title = "Hugo | 装修小技巧"
 将categories改成tags，一试，大功告成！archives界面的第一块成功按照tags进行排序。
 
 后续我根据[Jimmy的指南](https://docs.stack.jimmycai.com/zh/taxonomy/)，给tags加上图片。注意slug不要随意写，不然网址对不上，tag会以article的形式展开。建议只写title、description和image。
+
+## 友情链接
+
+### 给友情链接底部加上评论区
+
+作业我抄的[Bore的这篇](https://bore.vip/archives/3bf3725e/#%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5-shortcodes)，注意到layouts\\page\\links.html里有这样一段：
+
+        {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
+            {{ partial "comments/include" . }}
+        {{ end }}
+
+我：肯定是和友链评论有关！
+
+火速在content\\page\\links文件夹里找到对应的md文件，修改如下：
+
+    ---
+    title: 友情链接
+    description: 快来和我做互联网邻居！
+    date: '2022-02-12'
+    slug: links
+    layout: links
+    license: false
+    toc: true #目录显示
+    comments: true #评论显示
+    enabled: #想保持右侧栏不动，但目前尚未搞定
+        - search
+        - toc
+        - archives
+        - tag-cloud
+    menu:
+        main: 
+            weight: -70
+            name: Friends
+            url: /
+            params:
+                icon: friends
+    ---
+
+最后将links.html的comments段落改为：
+
+    {{ partial "comments/include" . }}
+
+这样就可以在评论区直接交换友链啦，是不是很方便。
+
+**遗留问题：右侧栏到底该怎么搞出来啊！抓狂！**
