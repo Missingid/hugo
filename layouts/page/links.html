@@ -45,7 +45,7 @@
 
     {{ partialCached "article/components/photoswipe" . }}
     
-    {{ if (.Scratch.Get "hasTOC") }}
+    <!--{{ if (.Scratch.Get "hasTOC") }}
         <section class="widget archives">
             <div class="widget-icon">
                 {{ partial "helper/icon" "hash" }}
@@ -56,7 +56,7 @@
                 {{ .TableOfContents }}
             </div>
         </section>
-    {{ end }}
+    {{ end }}-->
     {{ partial "sidebar/right.html" . }}
     {{ if .Site.Params.widgets.enabled }}
         {{ $context := . }}

@@ -5,9 +5,9 @@ date: '2022-02-12'
 slug: links
 layout: links
 license: false
-toc: true
+toc: true #目录显示
 comments: true
-enabled:
+enabled: #想保持右侧栏不动，但目前尚未搞定
     - search
     - toc
     - archives
