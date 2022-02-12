@@ -7,11 +7,11 @@ layout: links
 license: false
 toc: true #目录显示
 comments: true
-enabled: #想保持右侧栏不动，但目前尚未搞定
-    - search
-    - toc
-    - archives
-    - tag-cloud
+#enabled: #想保持右侧栏不动，但目前尚未搞定
+#    - search
+#    - toc
+#    - archives
+#    - tag-cloud
 menu:
     main: 
         weight: -70
