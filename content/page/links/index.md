@@ -5,6 +5,7 @@ slug: "links"
 layout: "links"
 license: false
 toc: true
+comments: true
 menu:
     main: 
         weight: -70
@@ -12,6 +13,4 @@ menu:
         url: /
         params:
             icon: friends
-
-comments: true
 ---
