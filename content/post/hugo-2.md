@@ -276,9 +276,9 @@ Stack原有的主题在打开文章后，右侧边栏只会显示目录，也就
             margin: 0 auto;
         }
 
-然后直接空行，如：
+然后直接空行，如：（实际使用时quote左右都是两个花括号）
 
-    {{< quote >}} 
+    {< quote >}}
     名称：Missing不想睡
     
     网址：https://hugo-missingid.vercel.app/
@@ -287,7 +287,7 @@ Stack原有的主题在打开文章后，右侧边栏只会显示目录，也就
     
     头像：https://github.com/Missingid/hugo/issues/1
     
-    {{< /quote >}}
+    {< /quote >}
 
 最后的效果和换行一样！
 
