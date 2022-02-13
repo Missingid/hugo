@@ -10,5 +10,11 @@
         "website":"https://mantyke.icu/",
         "image":"mantyke.png",
         "description":"我们会一起遇见鲸鱼吗？"
+    },
+    {
+        "title":"suica",
+        "website":"https://suicablog.cobaltkiss.blue",
+        "image":"suica.png",
+        "description":"suica’s blog"
     }
 ]
