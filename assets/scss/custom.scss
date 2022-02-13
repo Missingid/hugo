@@ -46,8 +46,8 @@
 blockquote.quote {
     position: relative;
     margin: 1.5em -10em 0 -10 ;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 18%;
+    padding-right: 18%;
     border: none;
     background-color: transparent;;
     &::before {
@@ -57,16 +57,16 @@ blockquote.quote {
         color: var(--color-contrast-low);
         font-size: 3em;
         font-weight: bold;
-        line-height: 1;
+        line-height: 0.8;
     }
     &::after {
         position: absolute;
         right: 7%;
-        content: '“';
+        content: '”';
         color: var(--color-contrast-low);
         font-size: 3em;
         font-weight: bold;
-        line-height: 1;
+        line-height: 0.8;
     }
     &.poetry {
         display: table;
