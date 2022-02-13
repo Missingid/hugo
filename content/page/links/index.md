@@ -1,6 +1,5 @@
 ---
-title: 友情链接
-date: '2022-02-12'
+title: 快来和我做互联网邻居！
 slug: links
 layout: links
 license: false
@@ -20,8 +19,6 @@ menu:
             icon: friends
 ---
 {{< quote >}} 
-快来和我做互联网邻居！
-
 名称：Missing不想睡
 
 网址：https://hugo-missingid.vercel.app/
