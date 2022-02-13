@@ -90,7 +90,7 @@ title = "Hugo | 装修小技巧"
 
 ### 去掉About
 
-本人真的很不会自我介绍···对着About界面发呆半小时也不知该说些什么，索性删掉。根据[Jimmy的自定义菜单指南](https://docs.stack.jimmycai.com/zh/configuration/custom-menu)，About、Archive以及Links页面都是由/content/page下的md文件控制。这里说一句题外话，config.yaml中的menu部分只显示了Home一栏，About等都在各自的md文件中······我一直以为是我眼神不好没找到，大哭 : ( 
+本人真的很不会自我介绍···对着About界面发呆半小时也不知该说些什么，索性删掉。根据[Jimmy的自定义菜单指南](https://docs.stack.jimmycai.com/zh/configuration/custom-menu)，About、Archive以及Links页面都是由/content/page下的md文件控制。这里说一句题外话，config.yaml中的menu部分只显示了Home一栏，About等都在各自的md文件中······我一直以为是我眼神不好没找到，大哭 : (
 
 弄明白这个后，自定义菜单栏就很简单啦！比如我这里不想要About，只需在About文件夹中的index.md把menu注释掉。
 
@@ -221,4 +221,36 @@ title = "Hugo | 装修小技巧"
 
 这样就可以在评论区直接交换友链啦，是不是很方便。
 
-**遗留问题：右侧栏到底该怎么搞出来啊！抓狂！**
+### 友链右侧边栏来啦
+
+闲逛的时候逛到[这位朋友的博客](https://blog.mysto.cyou/posts/211102-blogsearch/)，看到“问题不大”那块，我突然灵光一闪。这个{{ define XXX }}感觉好眼熟！我肯定在哪见过。于是速速打开links.html，果然有。昨天我捯饬很久，右侧边栏却一直在评论区下方，原来是我把right-sidebar的生成代码放在了main里。
+
+让我来一步步讲解原理！
+
+Stack原有的主题在打开文章后，右侧边栏只会显示目录，也就是toc，widget都会消失。之前我已经通过抄塔塔的教程[《调整文章页面的显示样式》](https://mantyke.icu/2021/f9f0ec87/#%E8%B0%83%E6%95%B4%E6%96%87%E7%AB%A0%E9%A1%B5%E9%9D%A2%E7%9A%84%E6%98%BE%E7%A4%BA%E6%A0%B7%E5%BC%8F)，在文章页面搞出了widget，那么，要在友情链接页面搞出widget，只需要依葫芦画瓢，将生成widget的代码复制粘贴到links.html就可以了！
+
+一一对比后，我发现文章界面的widget生成代码在single.html中：
+
+    {{ define "right-sidebar" }}
+        <!-- {{ if (.Scratch.Get "hasTOC") }}
+            <aside class="sidebar right-sidebar sticky">
+                <section class="widget archives">
+                    <div class="widget-icon">
+                        {{ partial "helper/icon" "hash" }}
+                    </div>
+                    <h2 class="widget-title section-title">{{ T "article.tableOfContents" }}</h2>
+                    
+                    <div class="widget--toc">
+                        {{ .TableOfContents }}
+                    </div>
+                </section>
+            </aside>
+        {{ else }}
+            {{ partial "sidebar/right.html" . }}
+        {{ end }} -->
+        {{ partial "sidebar/right.html" . }}
+    {{ end }}
+
+将这段代码复制到links.html中，右侧边栏就出现啦！
+
+**_注意不要复制到{{ define "main" }}里，这俩是平行关系。_**
