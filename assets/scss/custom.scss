@@ -50,6 +50,10 @@ blockquote.quote {
     padding-right: 18%;
     border: none;
     background-color: transparent;;
+    p{
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
     &::before {
         position: absolute;
         left: 7%;
