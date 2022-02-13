@@ -19,12 +19,12 @@ menu:
         params:
             icon: friends
 ---
-{{< quote >}
+{{< quote >}}
 快来和我做互联网邻居！
 名称：Missing不想睡
 网址：https://hugo-missingid.vercel.app/
 简介：和我一起做赛博宵夜吧！
 头像：https://github.com/Missingid/hugo/issues/1
 ”
-{< /quote >}}
+{{< /quote >}}
 // 由于代码块内也会被判断成html，实际使用时需要各加一个花括号
