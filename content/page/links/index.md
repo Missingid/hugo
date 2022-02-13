@@ -20,10 +20,10 @@ menu:
             icon: friends
 ---
 {{< quote >}}
-快来和我做互联网邻居！
-名称：Missing不想睡
-网址：https://hugo-missingid.vercel.app/
-简介：和我一起做赛博宵夜吧！
+快来和我做互联网邻居！<br>
+名称：Missing不想睡<br>
+网址：https://hugo-missingid.vercel.app/<br>
+简介：和我一起做赛博宵夜吧！<br>
 头像：https://github.com/Missingid/hugo/issues/1
 ”
 {{< /quote >}}
