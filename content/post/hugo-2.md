@@ -259,4 +259,36 @@ Stack原有的主题在打开文章后，右侧边栏只会显示目录，也就
 
 跟着[塔塔的教程](https://mantyke.icu/2021/a08f1963/)改变了引用格式，但用<br>换行一直不对，在此留下一个大疑点！
 
+最后我使用的替代方法非常奇怪，在塔塔写的quote的scss中加入这一段：
+
+    blockquote.quote {
+        position: relative;
+        margin: 1.5em -10em 0 -10 ;
+        padding-left: 18%;
+        padding-right: 18%;
+        border: none;
+        background-color: transparent;;
+        //p块为新加，主要起作用的是margin:0 auto
+        p{
+            text-align: left;
+            margin-top: 1.5em;
+            margin-bottom: 1.5em;
+            margin: 0 auto;
+        }
+
+然后直接空行，如：
+
+    {{< quote >}} 
+    名称：Missing不想睡
+    
+    网址：https://hugo-missingid.vercel.app/
+    
+    简介：和我一起做赛博宵夜吧!
+    
+    头像：https://github.com/Missingid/hugo/issues/1
+    
+    {{< /quote >}}
+
+最后的效果和换行一样！
+
 今晚（2月13日）还学到一个基础技巧，**markdown里自带的引用语法是>**，好简单！
