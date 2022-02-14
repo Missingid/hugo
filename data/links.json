@@ -16,5 +16,11 @@
         "website":"https://suicablog.cobaltkiss.blue",
         "image":"suica.png",
         "description":"suica’s blog"
+    },
+    {
+        "title":"一片痴心俱成灰",
+        "website":"https://akaito.xyz/",
+        "image":"akaito.png",
+        "description":"跳跃式移动，电波系发言。"
     }
 ]
