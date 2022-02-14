@@ -11,6 +11,13 @@
                         <h2 class="article-title">
                             {{- $link.title -}}
                         </h2>
+                        <footer class="article-time">
+                            {{ with $link.description }}
+                                {{ . }}
+                            {{ else }}
+                                {{ $link.website }}
+                            {{ end }}
+                        </footer>
                     </div>
             
                     {{ if $link.image }}
