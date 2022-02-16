@@ -1,4 +1,8 @@
 {{- $ThemeVersion := "3.7.0" -}}
+{{$scratch := newScratch}}
+{{ range (where .Site.Pages "Kind" "page" )}}
+    {{$scratch.Add "total" .WordCount}}
+{{ end }}
 <footer class="site-footer">
     <section class="copyright">
         &copy; 
@@ -29,7 +33,4 @@
         {{ now.Format "2006" }} Missing不想睡·<i class="fas fa-bell"></i> <a id="days">0</a>Days<br>共写了 {{$scratch.Get "total" }}字·共 {{ len (where .Site.RegularPages "Section" "post") }}篇文章</br><span><p>
     </section>
 </footer>
-{{$scratch := newScratch}}
-{{ range (where .Site.Pages "Kind" "page" )}}
-    {{$scratch.Add "total" .WordCount}}
-{{ end }}
+
