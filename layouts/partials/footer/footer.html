@@ -1,4 +1,8 @@
 {{- $ThemeVersion := "3.7.0" -}}
+{{$scratch := newScratch}}
+{{ range (where .Site.Pages "Kind" "page" )}}
+    {{$scratch.Add "total" .WordCount}}
+{{ end }}
 var s1 = '2022-01-28';
 s1 = new Date(s1.replace(/-/g, "/"));
 s2 = new Date();
@@ -6,7 +10,6 @@ var days = s2.getTime() - s1.getTime();
 var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
 document.getElementById('days').innerHTML = number_of_days;
 <footer class="site-footer">
-
     <section class="copyright">
         &copy; 
         {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
