@@ -18,6 +18,8 @@ menu:
         params:
             icon: friends
 ---
+>好几个只是单向链接！>< 如有冒犯我先在此道歉！
+>以下是我的友链格式，欢迎交换！
 {{< quote >}} 
 名称：Missing不想睡
 
@@ -28,6 +30,4 @@ menu:
 头像：https://github.com/Missingid/hugo/issues/1
 
 {{< /quote >}}
-
->好几个只是单向链接！>< 如有冒犯我先在此道歉！
 
