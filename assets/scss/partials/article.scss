@@ -97,7 +97,7 @@
     color: var(--card-text-color-tertiary);
     gap: 15px;
     margin-top: 10px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
     svg {
         vertical-align: middle;
