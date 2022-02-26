@@ -259,6 +259,10 @@ Stack原有的主题在打开文章后，右侧边栏只会显示目录，也就
 
 跟着[塔塔的教程](https://mantyke.icu/2021/a08f1963/)改变了引用格式，但用<br>换行一直不对，在此留下一个大疑点！
 
+> **2022/2/27 update**<br>
+>
+> 是因为config.yaml文件里markup:goldmark:renderer:unsafe: 要改成true，让html可以被识别
+
 最后我使用的替代方法非常奇怪，在塔塔写的quote的scss中加入这一段：
 
     blockquote.quote {
