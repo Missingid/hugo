@@ -66,7 +66,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Card style
 */
 :root {
-    --card-background: #f1f0ecb0;/*原：#fff*/
+    --card-background: rgba(255, 255, 255, 0.863);
     --card-background-selected: #eaeaea;
 
     --card-text-color-main: #000;
