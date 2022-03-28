@@ -26,9 +26,9 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #6667ab; /*原来是#f5f5fa*/
+    --body-background: #696AAD; /*原来是#f5f5fa*/
 
-    --accent-color: #34495e;
+    --accent-color: #fff;/*#34495e;*/
     --accent-color-darker: #2c3e50;
     --accent-color-text: #fff;
     --body-text-color: #272822;
@@ -41,7 +41,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
-        --body-background: #696AAD; /*原来是#303030*/
+        --body-background: #303030;
         --accent-color: #ecf0f1;
         --accent-color-darker: #bdc3c7;
         --accent-color-text: #000;
@@ -93,7 +93,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     }
 
     &[data-scheme="dark"] {
-        --card-background: #696aad57;/*原来是#424242*/
+        --card-background: #424242;
         --card-background-selected: rgba(255, 255, 255, 0.16);
         --card-text-color-main: rgba(255, 255, 255, 0.9);
         --card-text-color-secondary: rgba(255, 255, 255, 0.7);
