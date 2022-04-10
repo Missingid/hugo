@@ -27,7 +27,7 @@ menu:
 
 简介：和我一起做赛博宵夜吧!
 
-头像：https://github.com/Missingid/hugo/issues/1
+头像：https://hugo-missingid.vercel.app/img/avatar.jpg
 
 {{< /quote >}}
 
