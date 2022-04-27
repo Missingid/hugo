@@ -60,3 +60,5 @@ forestry.io网址为[https://forestry.io/](https://forestry.io/ "https://forestr
 ### 开始写作吧！
 
 以上全部完成后，就可以点击左侧的Post，再点击create new，就可以新建一个新的post文件开始写作了，界面基本和我的第一张图一样，左侧是Front matter，右侧是正文。
+
+是不是很简单很方便！
