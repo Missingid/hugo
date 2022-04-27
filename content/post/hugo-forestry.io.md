@@ -15,7 +15,7 @@ title = "Hugo | 利用forestry.io进行博客写作"
 
 ## 关于forestry.io
 
-forestry.io是一种后端网站，我们把github上的代码仓库托管给它后，任何时候我们在forestry.io的网页上写作，它都会自动帮我们将文章push至github博客项目里的.forestry文件夹。
+forestry.io是一种后端网站，我们把github上的代码仓库托管给它后，任何时候我们在forestry.io的网页上写作，它都会自动帮我们将文章push至github博客项目里的.content文件夹。
 
 和本地写作完成后利用github desktop将文章push至github仓库相比，基于forestry.io的写作有以下几个优点：
 
@@ -44,4 +44,6 @@ forestry.io网址为[https://forestry.io/](https://forestry.io/ "https://forestr
 
 ![](/uploads/forestry4.png)
 
-在Repository处选择你的博客项目，我自己的博客项目命名就是hugo，branches选择main就好。点击
+在Repository处选择你的博客项目，我自己的博客项目命名就是hugo，branches选择main就好。点击next，导入完成。
+
+### 
