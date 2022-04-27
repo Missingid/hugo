@@ -147,6 +147,7 @@ blockquote.quote {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
+    height: 1px;
     background-color: #fff;
     /* Center slide text vertically */
     display: flex;
@@ -155,6 +156,9 @@ blockquote.quote {
     img {
         margin: 0 !important;
     }
+}
+.swiper-slide-active { 
+    height:auto
 }
 
 
