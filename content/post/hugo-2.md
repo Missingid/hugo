@@ -299,6 +299,28 @@ Stack原有的主题在打开文章后，右侧边栏只会显示目录，也就
 
 ## 图片轮播
 
-测试：
+之前看了[小捌的博客](https://octo8.blog/entry/beauport-house)，非常喜欢其中展示图片的方式，但我一直不知道该如何描述我的需求。刚开始以为是“灯箱”（灯箱实际上是指点击放大的效果），后来以为是“图床”（图床实际上是指存放图片的云端），总之没找到合适的词描述。今天看到了塔塔的教程[《Hugo | 在文章中插入轮播图片》](https://mantyke.icu/2021/cf2cf0fb/)，才恍然大悟，原来叫图片轮播！我火速抄作业。
+
+只有一点需要注意，我也遇到了塔塔文中描述的一刷新图片会溢出，缩放后却会显示正常的问题。折腾半天终于发现，820px这个数值要根据博客版式自行调整！
+
+    .swiper-container {
+        max-width: 820px;//每个人博客版式不一样，要自己试
+        margin: 2em auto;
+    
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background-color: #fff;
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin: 0 !important;
+        }
+    }
+
+最终的样式如下，宽度固定但高度随照片自动调整的图片轮播！这样照片无论横竖都能放一起，之后即使博客包含的台词截图很多，也会很漂亮。
 
 {{< imgloop "/uploads/yuzu2.jpg,/uploads/yuzu1.jpg,/uploads/maisel.jpg">}}
