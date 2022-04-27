@@ -22,5 +22,6 @@ forestry.io是一种后端网站，我们把github上的代码仓库托管给它
 * 本地写作必须依赖电脑，对我这种习惯用手机/Ipad上的石墨文档/notion进行写作的人十分不友好
 * 利用forestry的Preview功能可以一边写博客一边预览博客排版，方便调节
 * forestry可以保存文章开头的front-matter模板，一次设置后再也不用手动敲
+* 基本不需要会markdown语法，直接点点点，操作简单
 
 ![本文写作时的forestry界面](/uploads/forestry.png)
