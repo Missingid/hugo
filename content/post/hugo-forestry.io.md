@@ -64,3 +64,5 @@ forestry.io网址为[https://forestry.io/](https://forestry.io/ "https://forestr
 是不是很简单很方便！
 
 不明白的地方也可以参考下这篇：[https://blog.arcto.me/others/forestry.io/](https://blog.arcto.me/others/forestry.io/ "使用forestry.io管理你的博客")
+
+还有塔塔的这篇：[《Hugo | 一个（些）静态博客的后端写作方案》](https://mantyke.icu/2021/18aaa9/)
