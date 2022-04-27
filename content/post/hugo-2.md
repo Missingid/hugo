@@ -301,4 +301,4 @@ Stack原有的主题在打开文章后，右侧边栏只会显示目录，也就
 
 测试：
 
-{{< imgloop "/uploads/yuzu2.jpg,/uploads/yuzu1.jpg,/uploads/Maisel1.jpg" ,/uploads/Maisel2.jpg>}}
+{{< imgloop "/uploads/yuzu2.jpg,/uploads/yuzu1.jpg,/uploads/Maisel1.jpg ,/uploads/Maisel2.jpg">}}
