@@ -15,15 +15,15 @@ title = "Hugo | 利用forestry.io进行博客写作"
 
 ## 关于forestry.io
 
-forestry.io是一种后端网站，我们把github上的代码仓库托管给它后，任何时候我们在forestry.io的网页上写作，它都会自动帮我们将文章push至github博客项目里的.content文件夹。
+forestry.io是一种后端网站，我们把github上的代码仓库托管给它后，任何时候我们在forestry.io网页上写作，它都会自动帮我们将文章push至github博客项目里的.content文件夹。
 
-和本地写作完成后利用github desktop将文章push至github仓库相比，基于forestry.io的写作有以下几个优点：
+相比起本地写作完成、利用github desktop将文章push至代码仓库，基于forestry.io的写作有以下几个优点：
 
-* 本地写作必须依赖电脑，对我这种习惯用手机/Ipad上的石墨文档/notion进行写作的人十分不友好
-* 利用forestry的Preview功能可以一边写博客一边预览博客排版，方便调节
-* forestry可以保存文章开头的front-matter模板，一次设置后再也不用手动敲
-* 基本不需要会markdown语法，直接点点点，操作简单
-* 自动保存功能···不记得点保存人的福音
+* 本地写作必须依赖电脑，而forestry.io可以在任何能打开网页的地方进行写作，对手机、ipad用户友好
+* 利用forestry的Preview功能可以一边写博客一边预览，方便调整文章排版
+* forestry可以保存文章开头的front-matter模板，一劳永逸
+* 使用forestry基本不需要markdown语法，直接点点点，操作简单
+* 有自动保存功能，避免内容丢失
 
 ![本文写作时的forestry界面](/uploads/forestry.png)
 
