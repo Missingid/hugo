@@ -56,3 +56,7 @@ forestry.io网址为[https://forestry.io/](https://forestry.io/ "https://forestr
 点击左边黑框的Front matter，接着点add template，设置Front matter模板。这里可以选择添加一个新的模板，或者直接导入已有文章的模板。一般博客主题如果提供了示例文章，建议选择第二个，更加方便，如果没有提供示例文章，需要根据博客主题中Front matter相关的使用说明进行设置。一般而言，基本的Front matter都大同小异，包含文章标题、写作日期、间接、标签等。
 
 ![](/uploads/forestry5.png)
+
+### 开始写作吧！
+
+以上全部完成后，就可以点击左侧的Post，再点击create new，就可以新建一个新的post文件开始写作了，界面基本和我的第一张图一样，左侧是Front matter，右侧是正文。
