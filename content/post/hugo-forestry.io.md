@@ -25,3 +25,23 @@ forestry.io是一种后端网站，我们把github上的代码仓库托管给它
 * 基本不需要会markdown语法，直接点点点，操作简单
 
 ![本文写作时的forestry界面](/uploads/forestry.png)
+
+## 具体步骤
+
+### 进入forestry.io界面，注册账号
+
+forestry.io网址为[https://forestry.io/](https://forestry.io/ "https://forestry.io/")，第一次点进去时需要注册账号（也可以直接点击[https://forestry.io/login]()，推荐直接使用Github账号登陆。
+
+![forestry.io登陆界面](/uploads/forestry2.png)
+
+### Add site
+
+登陆成功后会显示如下界面（应该是空的，我这里的hugo文件是因为我之前已经添加过），点击右上角的Add site。
+
+![](/uploads/forestry3.png)
+
+选择Hugo，然后再选择你的代码仓库，如我的代码仓库存放在github，这里便选择github，会出现以下界面。
+
+![](/uploads/forestry4.png)
+
+在Repository处选择你的博客项目，我自己的博客项目命名就是hugo，branches选择main就好。
