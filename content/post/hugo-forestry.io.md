@@ -23,6 +23,7 @@ forestry.io是一种后端网站，我们把github上的代码仓库托管给它
 * 利用forestry的Preview功能可以一边写博客一边预览博客排版，方便调节
 * forestry可以保存文章开头的front-matter模板，一次设置后再也不用手动敲
 * 基本不需要会markdown语法，直接点点点，操作简单
+* 自动保存功能···不记得点保存人的福音
 
 ![本文写作时的forestry界面](/uploads/forestry.png)
 
@@ -46,4 +47,12 @@ forestry.io网址为[https://forestry.io/](https://forestry.io/ "https://forestr
 
 在Repository处选择你的博客项目，我自己的博客项目命名就是hugo，branches选择main就好。点击next，导入完成。
 
-### 
+### Finish setup process
+
+点击第四个Set up preview commands打开实时浏览。
+
+### 设置Front matter
+
+点击左边黑框的Front matter，接着点add template，设置Front matter模板。这里可以选择添加一个新的模板，或者直接导入已有文章的模板。一般博客主题如果提供了示例文章，建议选择第二个，更加方便，如果没有提供示例文章，需要根据博客主题中Front matter相关的使用说明进行设置。一般而言，基本的Front matter都大同小异，包含文章标题、写作日期、间接、标签等。
+
+![](/uploads/forestry5.png)
