@@ -44,4 +44,4 @@ forestry.io网址为[https://forestry.io/](https://forestry.io/ "https://forestr
 
 ![](/uploads/forestry4.png)
 
-在Repository处选择你的博客项目，我自己的博客项目命名就是hugo，branches选择main就好。点击next，导入完成。
+在Repository处选择你的博客项目，我自己的博客项目命名就是hugo，branches选择main就好。点击
