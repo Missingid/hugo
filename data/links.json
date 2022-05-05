@@ -52,5 +52,17 @@
         "website":"https://mengru.space/",
         "image":"mengru.png",
                 "description":"Mengru在互联网上的小小角落"
+    },
+    {
+        "title":"Muko",
+        "website":"https://hugo-mukokka.vercel.app/",
+        "image":"muko.png",
+                "description":"我以前没得选，现在我想做个绝望的文盲。"
+    },
+    {
+        "title":"sikonn",
+        "website":"https://changingmoments.vercel.app/",
+        "image":"sikonn.gif",
+                "description":"但愿来自内心的东西能够真心诚意地维持下去。"
     }
 ]
